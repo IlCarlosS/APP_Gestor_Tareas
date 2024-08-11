@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Lista de tareas</string>
+
+    <string-array name="spinner_list_items">
+        <item>Tarea</item>
+        <item>Lista de deseos</item>
+    </string-array>
+</resources>

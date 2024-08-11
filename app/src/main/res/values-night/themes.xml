@@ -1,0 +1,21 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.ListaDeTareas" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryNight</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDarkNight</item>
+        <item name="colorOnPrimary">@color/backgroundNight</item>
+        <item name="colorSecondary">@color/colorAccentNight</item>
+        <item name="colorSecondaryVariant">@color/colorAccentNight</item>
+        <item name="colorOnSecondary">@color/backgroundNight</item>
+        <item name="android:colorBackground">@color/backgroundNight</item>
+        <item name="android:textColorPrimary">@color/textPrimaryNight</item>
+        <item name="buttonStyle">@style/ButtonStyleNight</item>
+    </style>
+
+    <style name="ButtonStyleNight" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/buttonBackgroundNight</item>
+        <item name="android:textColor">@color/buttonTextNight</item>
+    </style>
+
+    <style name="Theme.ListaDeTareas" parent="Base.Theme.ListaDeTareas" />
+</resources>
